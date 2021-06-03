@@ -1,0 +1,45 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "node_dev": "cross-env NODE_ENV=development nodemon app.js",
+    "run_test": "npx mocha --reporter spec",
+    "dev_webpack": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.28.9",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fcm-node": "^1.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.4.0",
+    "mongoose": "^5.12.12",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "vue": "^2.5.2",
+    "waterline": "^0.13.6"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.7",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^4.0.0-beta.3"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

@@ -1,0 +1,4 @@
+module.exports =  {
+    serverKey: 'AAAAO9uf-xA:APA91bFQhxJAMpvAFVDpHLh7k66yk7cPDKgmFFk2IUxmEeDfVb3OFA1mvkj79EhAIqGUzZ36D85_iddeEK1pgw1QAq4R-u-fLsAIoySUcEeut17NCWE5MA0R-QA1net-o8kXyOfF_MEo',
+    clientTestRegistrationToken: 'fkTwXtWmQG-hILj5QDeD2y:APA91bGGYfykNSBqNYRbl1kmdDnRJR0JL2cGkHd8JM5pog_YBa_r-i5arJbFEr4KclDM8roMF4dZK8oHEVJhNA55abKFRkwCHh9Q0y8XJTIUVXYmw_iYb-XUcTIAHIR71U29KuO_USZY',
+}
